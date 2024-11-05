@@ -1,0 +1,74 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    macros {
+        G1: G1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <>;
+            label = "G1";
+        };
+
+        G2: G2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <>;
+            label = "G2";
+        };
+
+        G3: G3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <>;
+            label = "G3";
+        };
+
+        G4: G4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <>;
+            label = "G4";
+        };
+
+        G5: G5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <>;
+            label = "G5";
+        };
+
+        G6: G6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <>;
+            label = "G6";
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        layer_0 {
+            bindings = <
+&G1  &kp ESC    &kp F1    &kp F2    &kp F3  &kp F4             &kp F5  &kp F6  &kp F7  &kp F8     &kp F9    &kp F10    &kp F11     &kp F12    &tog 1           &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&G2  &kp GRAVE  &kp N1    &kp N2    &kp N3  &kp N4  &kp N5     &kp N6  &kp N7  &kp N8  &kp N9     &kp N0    &kp MINUS  &kp EQUAL   &kp BSPC   &kp DEL          &kp C_REWIND       &kp C_NEXT
+&G3  &kp TAB    &kp Q     &kp W     &kp E   &kp R   &kp T      &kp Y   &kp U   &kp I   &kp O      &kp P     &kp LBKT   &kp RBKT    &kp BSLH   &kp PAUSE_BREAK  &kp HOME           &kp K_PLAY_PAUSE
+&G4  &kp CAPS   &kp A     &kp S     &kp D   &kp F   &kp G      &kp H   &kp J   &kp K   &kp L      &kp SEMI  &kp SQT                &kp RET    &kp INSERT       &kp END            &kp PAGE_UP
+&G5  &kp LSHFT            &kp Z     &kp X   &kp C   &kp V      &kp B   &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH               &kp RSHFT  &kp PRINTSCREEN  &kp UP             &kp PAGE_DOWN
+&G6  &kp LCTRL  &kp LGUI  &kp LALT                  &kp SPACE                                     &kp RALT  &kp RGUI   &kp C_MENU  &kp RCTRL  &kp LEFT         &kp DOWN           &kp RIGHT
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+    };
+};
