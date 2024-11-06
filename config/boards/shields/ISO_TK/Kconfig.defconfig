@@ -1,0 +1,6 @@
+if SHEILD_ISO_TK
+
+config ZMK_KEYBOARD_NAME
+    default "ISO_TK"
+
+endif

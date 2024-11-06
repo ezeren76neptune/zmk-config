@@ -1,0 +1,2 @@
+config SHEILD_ISO_TK
+    def_bool $(shields_list_contains, ISO_TK)
