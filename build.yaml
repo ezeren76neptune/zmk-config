@@ -18,4 +18,5 @@
 #
 ---
 include:
-  - board: "ISO_TK"
+  - board: "nice_nano"
+    sheild: "ISO_TK"
