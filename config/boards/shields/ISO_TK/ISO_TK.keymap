@@ -7,42 +7,42 @@
         G1: G1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <>;
+            bindings = <&kp G &kp N1>;
             label = "G1";
         };
 
         G2: G2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <>;
+            bindings = <&kp G &kp N2>;
             label = "G2";
         };
 
         G3: G3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <>;
+            bindings = <&kp G &kp N3>;
             label = "G3";
         };
 
         G4: G4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <>;
+            bindings = <&kp G &kp N4>;
             label = "G4";
         };
 
         G5: G5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <>;
+            bindings = <&kp G &kp N5>;
             label = "G5";
         };
 
         G6: G6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <>;
+            bindings = <&kp G &kp N6>;
             label = "G6";
         };
     };
